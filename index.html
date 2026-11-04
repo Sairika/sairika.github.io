@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sabrina Sultana</title>
+<meta name="description" content="Sabrina Sultana: efficient and hardware-aware machine learning, ML surrogates for AI accelerator design, quantization for efficient inference. Prospective PhD student, Fall 2027.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#ffffff; --text:#1d1f23; --muted:#5b6170; --line:#e4e6eb; --accent:#1f4e8c; --accent-soft:#eaf1fb;
+  --badge-review:#8a5a00; --badge-review-bg:#fff4dc; --badge-done:#1e6b3a; --badge-done-bg:#e5f5ea;
+}
+@media (prefers-color-scheme: dark){
+  :root{ --bg:#14161a; --text:#e7e9ee; --muted:#a2a8b5; --line:#2a2e36; --accent:#8bb4f0; --accent-soft:#1c2533;
+    --badge-review:#f3c56b; --badge-review-bg:#33290f; --badge-done:#7fd39c; --badge-done-bg:#132a1c; }
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.65 Inter,system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+a{color:var(--accent);text-decoration:none} a:hover{text-decoration:underline}
+.wrap{max-width:860px;margin:0 auto;padding:0 20px}
+nav{position:sticky;top:0;background:var(--bg);border-bottom:1px solid var(--line);z-index:5}
+nav .wrap{display:flex;gap:18px;align-items:center;height:54px;overflow-x:auto;white-space:nowrap}
+nav .name{font-family:"Source Serif 4",Georgia,serif;font-weight:600;font-size:18px;color:var(--text);margin-right:auto}
+nav a.l{color:var(--muted);font-size:14px} nav a.l:hover{color:var(--accent)}
+header{padding:48px 0 18px}
+h1{font-family:"Source Serif 4",Georgia,serif;font-weight:600;font-size:38px;margin:0 0 4px;letter-spacing:-.01em}
+.role{color:var(--muted);margin:0 0 18px}
+.links{display:flex;flex-wrap:wrap;gap:10px;margin:0 0 22px}
+.btn{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);border-radius:8px;padding:6px 12px;font-size:14px;color:var(--text)}
+.btn:hover{border-color:var(--accent);color:var(--accent);text-decoration:none}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:#fff}
+@media (prefers-color-scheme: dark){.btn.primary{color:#0f1a2b}}
+.note{background:var(--accent-soft);border-radius:10px;padding:12px 16px;font-size:15px}
+section{padding:26px 0;border-top:1px solid var(--line)}
+h2{font-family:"Source Serif 4",Georgia,serif;font-weight:600;font-size:24px;margin:0 0 14px}
+h3{font-size:16px;margin:0 0 2px;font-weight:600}
+ul.tight{margin:0;padding-left:20px} ul.tight li{margin:4px 0}
+.item{margin:0 0 20px}
+.meta{color:var(--muted);font-size:14px}
+.row{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.badge{display:inline-block;font-size:12px;font-weight:600;border-radius:999px;padding:1px 9px;margin-left:6px;vertical-align:2px}
+.review{color:var(--badge-review);background:var(--badge-review-bg)}
+.done{color:var(--badge-done);background:var(--badge-done-bg)}
+.pub{margin:0 0 18px;padding-left:14px;border-left:3px solid var(--line)}
+.pub.feat{border-left-color:var(--accent)}
+.pub .t{font-weight:600}
+.pub .key{font-size:14.5px;margin-top:4px}
+.me{text-decoration:underline;text-underline-offset:2px}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{border:1px solid var(--line);border-radius:999px;padding:3px 11px;font-size:13.5px}
+footer{color:var(--muted);font-size:13px;padding:28px 0 40px;border-top:1px solid var(--line)}
+@media (max-width:560px){h1{font-size:30px} header{padding-top:30px}}
+</style>
+</head>
+<body>
+
+<nav><div class="wrap">
+  <a class="name" href="#top">Sabrina Sultana</a>
+  <a class="l" href="#research">Research</a>
+  <a class="l" href="#publications">Publications</a>
+  <a class="l" href="#projects">Projects</a>
+  <a class="l" href="#experience">Experience</a>
+  <a class="l" href="Sabrina_Sultana_CV.pdf">CV</a>
+</div></nav>
+
+<main class="wrap" id="top">
+<header>
+  <h1>Sabrina Sultana</h1>
+  <p class="role">BSc in Electronics &amp; Telecommunication Engineering, CUET &middot; AI Business Research Specialist, iSmartu Technology &middot; Dhaka, Bangladesh</p>
+  <div class="links">
+    <a class="btn primary" href="Sabrina_Sultana_CV.pdf">CV (PDF)</a>
+    <a class="btn" href="mailto:sabrina.sultana.cuet@gmail.com">sabrina.sultana.cuet@gmail.com</a>
+    <a class="btn" href="https://github.com/Sairika">GitHub</a>
+    <a class="btn" href="https://www.linkedin.com/in/sabrina-sultana-cuet">LinkedIn</a>
+  </div>
+  <p>I work on <strong>efficient, hardware-aware machine learning</strong>: making models cheaper to run, and using ML to make hardware faster to design. My current work builds graph neural network surrogates that predict how a neural network will perform on an AI accelerator, so that large design spaces can be searched without running a full simulation for every point. I also study what quantization actually does to large models, beyond average benchmark scores.</p>
+  <p class="note"><strong>I am looking for a PhD position starting Fall 2027</strong> in AI hardware, ML systems, or efficient ML. Feel free to reach out by email.</p>
+</header>
+
+<section id="research">
+  <h2>Research interests</h2>
+  <ul class="tight">
+    <li>Efficient and hardware-aware ML; algorithm&ndash;hardware co-design for edge AI inference</li>
+    <li>ML-guided design space exploration, performance modeling, and mapping of tensor workloads on AI accelerators</li>
+    <li>Efficient adaptation and inference of large models: parameter-efficient fine-tuning and quantization</li>
+    <li>Digital and VLSI design for edge AI hardware</li>
+  </ul>
+</section>
+
+<section id="publications">
+  <h2>Publications</h2>
+  <p class="meta" style="margin-top:-6px">Conference papers. <span class="me">Underlined</span> = me.</p>
+
+  <div class="pub feat">
+    <div class="t">Surrogate Modeling for ViT&ndash;Accelerator Co-Design: Generalization and Design-Space Exploration <span class="badge review">Under review</span></div>
+    <div class="meta"><span class="me">Sabrina Sultana</span>, Anik Paul &middot; ICREST 2027</div>
+    <div class="key">A GraphSAGE surrogate trained on a 12,096-point SCALE-Sim sweep predicts cycle count, utilization and mapping efficiency, with 7.05% cycle-count error on unseen accelerator architectures.</div>
+  </div>
+
+  <div class="pub feat">
+    <div class="t">Quantizing LoRA-Adapted FLAN-T5 for Dialogue Summarization: Quality, Faithfulness, and Efficiency Trade-offs <span class="badge review">Under review</span></div>
+    <div class="meta"><span class="me">Sabrina Sultana</span>, Madhubi Omi, Anik Paul &middot; ICEEICT 2027</div>
+    <div class="key">Average quality scores stay flat under INT8 and 4-bit quantization, but individual outputs change (54% rewritten under 4-bit). Includes GPU and CPU latency, memory and energy measurements.</div>
+  </div>
+
+  <div class="pub">
+    <div class="t">FedEdge: Quota-Guaranteed Tier Fairness for Hardware-Aware Federated Client Selection <span class="badge review">Under review</span></div>
+    <div class="meta"><span class="me">Sabrina Sultana</span>, Mehlaqa, Intesur Chowdhury Ifsan, Yusuf Salehin &middot; ICREST 2027</div>
+    <div class="key">A client-selection policy with a closed-form worst-case participation-fairness guarantee, evaluated on real FedScale device traces.</div>
+  </div>
+
+  <div class="pub">
+    <div class="t">Rethinking Decision Thresholds for TabPFN in Semiconductor Fault Detection <span class="badge review">Under review</span></div>
+    <div class="meta"><span class="me">Sabrina Sultana</span>, Nur Alam, Iffat Ara, Yusuf Salehin &middot; ICREST 2027</div>
+    <div class="key">Leakage-free evaluation with cross-validated threshold correction, calibration analysis and paired-bootstrap significance testing over 25 folds.</div>
+  </div>
+
+  <div class="pub">
+    <div class="t">BanglaLitEmo: A Source-Traceable Bangla Literary Emotion Dataset with LLaMA-3 Fine-Tuning for Fine-Grained Emotion Detection <span class="badge review">Under review</span></div>
+    <div class="meta">Nur Alam, <span class="me">Sabrina Sultana</span>, Madhubi Omi, Taisirul Muktadi &middot; ECCE 2027</div>
+  </div>
+
+  <div class="pub">
+    <div class="t">Seismic Risk Assessment in Chattogram: An Explainable Machine Learning Approach <span class="badge done">Presented</span></div>
+    <div class="meta"><span class="me">Sabrina Sultana</span>, Samia Shafique, Syeda Tamzida Akter, Choity Roy, Ayman Mahdia Khan, Md. Basir Zisan &middot; iCONEECT 2026</div>
+  </div>
+
+  <h3 style="margin-top:22px">Manuscript</h3>
+  <div class="pub">
+    <div class="t">Content-Aware Hybrid Multi-Model Fusion for Interpretable Histopathological Stroke Clot Classification</div>
+    <div class="meta"><span class="me">Sabrina Sultana</span>, Priyanti Paul Tumpa &middot; undergraduate thesis work, CUET</div>
+  </div>
+</section>
+
+<section id="thesis">
+  <h2>Undergraduate thesis</h2>
+  <div class="item">
+    <div class="row"><h3>Multi-Modal Deep Learning for Histopathological Stroke Diagnosis</h3><span class="meta">Dec 2024 &ndash; Jun 2025</span></div>
+    <div class="meta">Supervisor: Priyanti Paul Tumpa, Dept. of ETE, CUET</div>
+    <ul class="tight">
+      <li>Fused Swin Transformer with self-supervised MoCo and DINO embeddings for whole-slide image classification (758 slides).</li>
+      <li>Content-aware tile selection kept the 16 most informative of 64 tiles per slide; attention heatmaps for interpretability.</li>
+      <li>94.74% sensitivity and 91.38% specificity.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="item">
+    <div class="row"><h3>SAP-1 microprocessor simulation</h3><a class="meta" href="https://github.com/Sairika/Control_Sequencer">code</a></div>
+    <div>8-bit microprocessor (ALU, registers, control unit, instruction cycle) built in Logisim to study control-signal generation.</div>
+  </div>
+  <div class="item">
+    <div class="row"><h3>Arduino multi-sensor monitoring system</h3><a class="meta" href="https://github.com/Sairika/SmartGuard">code</a></div>
+    <div>Real-time embedded monitoring with gas, flame, IR and ultrasonic sensors and threshold-based alerts in embedded C.</div>
+  </div>
+  <div class="item">
+    <div class="row"><h3>Retrieval-augmented generation for financial documents</h3><a class="meta" href="https://github.com/Sairika/financial-policy-chatbot">code</a></div>
+    <div>Llama-3 RAG pipeline with semantic chunking and hybrid vector search; 18% better retrieval accuracy than the baseline.</div>
+  </div>
+</section>
+
+<section id="experience">
+  <h2>Experience</h2>
+  <div class="item">
+    <div class="row"><h3>AI Business Research Specialist, iSmartu Technology BD Limited</h3><span class="meta">Oct 2026 &ndash; present</span></div>
+    <div>Building enterprise LLM agents with retrieval-augmented generation for sales, finance and supply-chain workflows.</div>
+  </div>
+  <div class="item">
+    <div class="row"><h3>Assistant Executive, Dealer Channel Development, BSRM</h3><span class="meta">Nov 2025 &ndash; Sep 2026</span></div>
+    <div>Owned data quality for company-wide transaction-level sales records and turned them into analyses for executive planning.</div>
+  </div>
+  <div class="item">
+    <div class="row"><h3>Telecommunications Engineer Intern, Teletalk Bangladesh</h3><span class="meta">2024</span></div>
+    <div>Mobile network technologies (1G&ndash;5G), network architecture and security in a production telecom environment.</div>
+  </div>
+</section>
+
+<section id="education">
+  <h2>Education</h2>
+  <div class="item">
+    <div class="row"><h3>BSc in Electronics &amp; Telecommunication Engineering, CUET</h3><span class="meta">2020 &ndash; 2025</span></div>
+    <div>CGPA 3.78 / 4.00 (11th of 58). Coursework: VLSI Technology, Digital Integrated Circuits, Microprocessors, Digital Logic Design, Digital Signal Processing, Data Structures and Algorithms.</div>
+  </div>
+</section>
+
+<section id="skills">
+  <h2>Tools</h2>
+  <div class="chips">
+    <span class="chip">PyTorch</span><span class="chip">Graph neural networks</span><span class="chip">Hugging Face / PEFT</span><span class="chip">bitsandbytes</span><span class="chip">CTranslate2</span>
+    <span class="chip">SCALE-Sim</span><span class="chip">Cadence Virtuoso</span><span class="chip">ModelSim</span><span class="chip">Logisim</span><span class="chip">Arduino</span>
+    <span class="chip">Python</span><span class="chip">C / C++</span><span class="chip">MATLAB</span><span class="chip">Git</span><span class="chip">Docker</span><span class="chip">LaTeX</span>
+  </div>
+</section>
+</main>
+
+<footer><div class="wrap">&copy; 2026 Sabrina Sultana &middot; Last updated November 2026</div></footer>
+</body>
+</html>
