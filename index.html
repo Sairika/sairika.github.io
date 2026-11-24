@@ -76,13 +76,14 @@ footer{color:var(--muted);font-size:13px;padding:28px 0 40px;border-top:1px soli
     <a class="btn" href="https://github.com/Sairika">GitHub</a>
     <a class="btn" href="https://www.linkedin.com/in/sabrina-sultana-cuet">LinkedIn</a>
   </div>
-  <p>I work on <strong>efficient, hardware-aware machine learning</strong>: making models cheaper to run, and using ML to make hardware faster to design. My current work builds graph neural network surrogates that predict how a neural network will perform on an AI accelerator, so that large design spaces can be searched without running a full simulation for every point. I also study what quantization actually does to large models, beyond average benchmark scores.</p>
-  <p class="note"><strong>I am looking for a PhD position starting Fall 2027</strong> in AI hardware, ML systems, or efficient ML. Feel free to reach out by email.</p>
+  <p>I work on <strong>efficient, hardware-aware machine learning</strong>: making models cheaper to run, and using ML to make hardware faster to design. My current work builds graph neural network surrogates that predict how a neural network will perform on an AI accelerator, so that large design spaces can be searched without running a full simulation for every point. I also work on hardware-aware federated learning for heterogeneous edge devices, and I study what quantization actually does to large models, beyond average benchmark scores.</p>
+  <p class="note"><strong>I am looking for a PhD position starting Fall 2027</strong> in efficient ML, federated and edge learning, ML systems, or AI hardware. Feel free to reach out by email.</p>
 </header>
 
 <section id="research">
   <h2>Research interests</h2>
   <ul class="tight">
+    <li>Federated and distributed learning on heterogeneous, resource-constrained edge devices</li>
     <li>Efficient and hardware-aware ML; algorithm&ndash;hardware co-design for edge AI inference</li>
     <li>ML-guided design space exploration, performance modeling, and mapping of tensor workloads on AI accelerators</li>
     <li>Efficient adaptation and inference of large models: parameter-efficient fine-tuning and quantization</li>
@@ -95,37 +96,37 @@ footer{color:var(--muted);font-size:13px;padding:28px 0 40px;border-top:1px soli
   <p class="meta" style="margin-top:-6px">Conference papers. <span class="me">Underlined</span> = me.</p>
 
   <div class="pub feat">
-    <div class="t">Surrogate Modeling for ViT&ndash;Accelerator Co-Design: Generalization and Design-Space Exploration <span class="badge review">Under review</span></div>
-    <div class="meta"><span class="me">Sabrina Sultana</span>, Anik Paul &middot; ICREST 2027</div>
-    <div class="key">A GraphSAGE surrogate trained on a 12,096-point SCALE-Sim sweep predicts cycle count, utilization and mapping efficiency, with 7.05% cycle-count error on unseen accelerator architectures.</div>
+    <div class="t">Surrogate Modeling for ViT&ndash;Accelerator Co-Design: Generalization and Design-Space Exploration <span class="badge done">Accepted</span></div>
+    <div class="meta"><span class="me">Sabrina Sultana</span>, Sabrina Soltana, Anik Paul, Md. Jahedul Islam &middot; ICREST 2027</div>
+    <div class="key">A GraphSAGE surrogate trained on a 12,096-point SCALE-Sim sweep predicts cycle count, utilization and mapping efficiency, with 7.05% cycle-count error on held-out ViT architectures.</div>
   </div>
 
   <div class="pub feat">
     <div class="t">Quantizing LoRA-Adapted FLAN-T5 for Dialogue Summarization: Quality, Faithfulness, and Efficiency Trade-offs <span class="badge review">Under review</span></div>
-    <div class="meta"><span class="me">Sabrina Sultana</span>, Madhubi Omi, Anik Paul &middot; ICEEICT 2027</div>
+    <div class="meta"><span class="me">Sabrina Sultana</span>, Madhubi Omi, Anik Paul, Nursadul Mamun &middot; ICEEICT 2027</div>
     <div class="key">Average quality scores stay flat under INT8 and 4-bit quantization, but individual outputs change (54% rewritten under 4-bit). Includes GPU and CPU latency, memory and energy measurements.</div>
   </div>
 
-  <div class="pub">
+  <div class="pub feat">
     <div class="t">FedEdge: Quota-Guaranteed Tier Fairness for Hardware-Aware Federated Client Selection <span class="badge review">Under review</span></div>
-    <div class="meta"><span class="me">Sabrina Sultana</span>, Mehlaqa, Intesur Chowdhury Ifsan, Yusuf Salehin &middot; ICREST 2027</div>
-    <div class="key">A client-selection policy with a closed-form worst-case participation-fairness guarantee, evaluated on real FedScale device traces.</div>
+    <div class="meta"><span class="me">Sabrina Sultana</span>, Mehlaqa, Intesur Chowdhury Ifsan, Yusuf Salehin, Md. Jahedul Islam &middot; ICEEICT 2027</div>
+    <div class="key">A client-selection policy with a closed-form worst-case participation-fairness guarantee (under stated conditions), evaluated on real FedScale device traces.</div>
   </div>
 
   <div class="pub">
-    <div class="t">Rethinking Decision Thresholds for TabPFN in Semiconductor Fault Detection <span class="badge review">Under review</span></div>
+    <div class="t">Rethinking Decision Thresholds for TabPFN in Semiconductor Fault Detection <span class="badge done">Accepted</span></div>
     <div class="meta"><span class="me">Sabrina Sultana</span>, Nur Alam, Iffat Ara, Yusuf Salehin &middot; ICREST 2027</div>
     <div class="key">Leakage-free evaluation with cross-validated threshold correction, calibration analysis and paired-bootstrap significance testing over 25 folds.</div>
   </div>
 
   <div class="pub">
-    <div class="t">BanglaLitEmo: A Source-Traceable Bangla Literary Emotion Dataset with LLaMA-3 Fine-Tuning for Fine-Grained Emotion Detection <span class="badge review">Under review</span></div>
-    <div class="meta">Nur Alam, <span class="me">Sabrina Sultana</span>, Madhubi Omi, Taisirul Muktadi &middot; ECCE 2027</div>
+    <div class="t">Seismic Risk Assessment in Chattogram: An Explainable Machine Learning Approach <span class="badge done">Presented</span></div>
+    <div class="meta"><span class="me">Sabrina Sultana</span>, Samia Shafique, Syeda Tamzida Akter, Choity Roy, Ayman Mahdia Khan, Md. Basir Zisan &middot; iCONEECT 2026</div>
   </div>
 
   <div class="pub">
-    <div class="t">Seismic Risk Assessment in Chattogram: An Explainable Machine Learning Approach <span class="badge done">Presented</span></div>
-    <div class="meta"><span class="me">Sabrina Sultana</span>, Samia Shafique, Syeda Tamzida Akter, Choity Roy, Ayman Mahdia Khan, Md. Basir Zisan &middot; iCONEECT 2026</div>
+    <div class="t">BanglaLitEmo: A Source-Traceable Bangla Literary Emotion Dataset with LLaMA-3 Fine-Tuning for Fine-Grained Emotion Detection <span class="badge review">Under review</span></div>
+    <div class="meta">Nur Alam, <span class="me">Sabrina Sultana</span>, Madhubi Omi, Taisirul Muktadi &middot; ECCE 2027</div>
   </div>
 
   <h3 style="margin-top:22px">Manuscript</h3>
@@ -138,12 +139,12 @@ footer{color:var(--muted);font-size:13px;padding:28px 0 40px;border-top:1px soli
 <section id="thesis">
   <h2>Undergraduate thesis</h2>
   <div class="item">
-    <div class="row"><h3>Multi-Modal Deep Learning for Histopathological Stroke Diagnosis</h3><span class="meta">Dec 2024 &ndash; Jun 2025</span></div>
+    <div class="row"><h3>Advancing Histopathological Stroke Diagnosis: A Multi-Modal Deep Learning Approach for Interpretable Clot Origin Classification</h3><span class="meta">Dec 2024 &ndash; Jun 2025</span></div>
     <div class="meta">Supervisor: Priyanti Paul Tumpa, Dept. of ETE, CUET</div>
     <ul class="tight">
       <li>Fused Swin Transformer with self-supervised MoCo and DINO embeddings for whole-slide image classification (758 slides).</li>
       <li>Content-aware tile selection kept the 16 most informative of 64 tiles per slide; attention heatmaps for interpretability.</li>
-      <li>94.74% sensitivity and 91.38% specificity.</li>
+      <li>AUC-ROC of 79.04%, with 94.74% sensitivity (LAA) and 91.38% specificity (CE) on a 77-slide validation split.</li>
     </ul>
   </div>
 </section>
@@ -153,6 +154,10 @@ footer{color:var(--muted);font-size:13px;padding:28px 0 40px;border-top:1px soli
   <div class="item">
     <div class="row"><h3>SAP-1 microprocessor simulation</h3><a class="meta" href="https://github.com/Sairika/Control_Sequencer">code</a></div>
     <div>8-bit microprocessor (ALU, registers, control unit, instruction cycle) built in Logisim to study control-signal generation.</div>
+  </div>
+  <div class="item">
+    <div class="row"><h3>RTL design and layout coursework projects</h3></div>
+    <div>RTL code verified through ModelSim simulation, and the layout of a MOSFET designed in Cadence Virtuoso.</div>
   </div>
   <div class="item">
     <div class="row"><h3>Arduino multi-sensor monitoring system</h3><a class="meta" href="https://github.com/Sairika/SmartGuard">code</a></div>
@@ -184,7 +189,7 @@ footer{color:var(--muted);font-size:13px;padding:28px 0 40px;border-top:1px soli
   <h2>Education</h2>
   <div class="item">
     <div class="row"><h3>BSc in Electronics &amp; Telecommunication Engineering, CUET</h3><span class="meta">2020 &ndash; 2025</span></div>
-    <div>CGPA 3.78 / 4.00 (11th of 58). Coursework: VLSI Technology, Digital Integrated Circuits, Microprocessors, Digital Logic Design, Digital Signal Processing, Data Structures and Algorithms.</div>
+    <div>CGPA 3.78 / 4.00 (11th of 58). Coursework: VLSI Technology, Digital Integrated Circuit, Microprocessor and Microcontroller, Digital Logic Design, Digital Signal Processing, Data Structures and Algorithms, Information Theory and Coding, Neural and Fuzzy Systems in Communications.</div>
   </div>
 </section>
 
